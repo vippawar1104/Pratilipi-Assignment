@@ -47,19 +47,34 @@ Final Story (2-3 pages)
 
 ```
 Assignment/
-├── story_transformation.ipynb    # Main notebook (PRIMARY DELIVERABLE)
-├── data/
-│   └── ramayana_story.txt       # Input story (condensed)
-├── outputs/
-│   ├── story_dna.json           # Stage 1 output
-│   ├── transformation_rules.json # Stage 2 output
-│   ├── final_story.md           # Generated story (2-3 pages)
-│   └── constraint_log.json      # Validation logs
-├── docs/
-│   ├── SOLUTION_DESIGN.pdf      # 2-page design document
-│   └── approach_diagram.png     # Visual pipeline
-├── requirements.txt
-└── README.md
+├── README.md                          # Project documentation
+├── requirements.txt                   # Python dependencies
+├── story_transformation.ipynb         # Main notebook (PRIMARY DELIVERABLE)
+├── run.py                             # CLI script for interactive transformation
+│
+├── data/                              # Source stories
+│   ├── ramayana_story.txt            # Ramayana condensed version
+│   └── romeo_juliet_story.txt        # Romeo & Juliet condensed version
+│
+├── src/                               # Core transformation modules
+│   ├── __init__.py                   # Package initialization
+│   ├── models.py                     # Pydantic data models
+│   ├── llm_client.py                 # Multi-provider LLM wrapper
+│   ├── prompts.py                    # Prompt template library
+│   ├── constraint_enforcer.py        # THE INNOVATION (validation system)
+│   └── story_transformer.py          # Main orchestrator pipeline
+│
+├── outputs/                           # Generated outputs
+│   ├── .gitkeep                      # Keep directory in git
+│   ├── story_dna.json                # Stage 1: DNA extraction
+│   ├── transformation_rules.json     # Stage 2: Rulebook
+│   ├── final_story.md                # Stage 3: Generated story (6,155 words)
+│   ├── constraint_log.json           # Validation logs
+│   └── metadata.json                 # Performance metrics
+│
+└── docs/                              # Documentation
+    ├── SOLUTION_DESIGN.md            # 2-page design document (330 lines)
+    └── approach_diagram.png          # Visual pipeline diagram
 ```
 
 ---
