@@ -1,0 +1,75 @@
+{
+  "themes": [
+    "love vs loyalty",
+    "fate vs free will",
+    "duty vs personal desire",
+    "hatred vs forgiveness",
+    "youth vs experience"
+  ],
+  "characters": [
+    {
+      "name": "Romeo",
+      "archetype": "hero",
+      "core_trait": "impulsive",
+      "role": "protagonist"
+    },
+    {
+      "name": "Juliet",
+      "archetype": "heroine",
+      "core_trait": "determined",
+      "role": "protagonist"
+    },
+    {
+      "name": "Friar Lawrence",
+      "archetype": "mentor",
+      "core_trait": "wise",
+      "role": "guide"
+    },
+    {
+      "name": "Tybalt",
+      "archetype": "antagonist",
+      "core_trait": "aggressive",
+      "role": "obstacle"
+    }
+  ],
+  "plot_beats": [
+    {
+      "beat_name": "forbidden love",
+      "description": "Two individuals from opposing groups fall in love",
+      "emotion": "excitement",
+      "act": 1
+    },
+    {
+      "beat_name": "separation",
+      "description": "The lovers are forced apart by circumstances",
+      "emotion": "sadness",
+      "act": 2
+    },
+    {
+      "beat_name": "desperation",
+      "description": "One of the lovers takes a drastic measure to be reunited",
+      "emotion": "desperation",
+      "act": 2
+    },
+    {
+      "beat_name": "tragic mistake",
+      "description": "A misunderstanding leads to a devastating consequence",
+      "emotion": "horror",
+      "act": 3
+    },
+    {
+      "beat_name": "ultimate sacrifice",
+      "description": "One or both lovers give up everything for their love",
+      "emotion": "devastation",
+      "act": 3
+    },
+    {
+      "beat_name": "reconciliation",
+      "description": "The conflict is resolved, but at a great cost",
+      "emotion": "acceptance",
+      "act": 3
+    }
+  ],
+  "emotional_arc": "The story follows a tragic descent from hope and excitement to despair and devastation, ultimately leading to a sense of acceptance and reconciliation.",
+  "conflict_type": "person vs society"
+}

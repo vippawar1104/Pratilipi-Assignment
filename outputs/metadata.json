@@ -1,0 +1,7 @@
+{
+  "total_scenes": 6,
+  "violations_detected": 0,
+  "scenes_with_violations": 0,
+  "model_used": "llama-3.3-70b-versatile",
+  "total_tokens": 15282
+}

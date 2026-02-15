@@ -42,14 +42,5 @@ wheels/
 .DS_Store
 Thumbs.db
 
-# Project specific
-outputs/*.json
-outputs/*.md
-outputs/*.txt
-!outputs/.gitkeep
-
-# Temporary/testing files
-temp_test.py
-scratch/
-DEVELOPMENT_NOTES.md
-HUMANIZATION_CHECKLIST.md
+# NOTE: outputs/ folder is INCLUDED for assignment submission
+# All generated stories and intermediate files are part of deliverables

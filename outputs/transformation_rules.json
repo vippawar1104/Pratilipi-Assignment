@@ -1,0 +1,59 @@
+{
+  "world_setting": {
+    "time_period": "2045",
+    "location": "Silicon Valley",
+    "technology_level": "Advanced Artificial Intelligence and Cybernetics",
+    "power_structure": "Tech corporations have more power than governments, with CEOs and AI researchers holding significant influence",
+    "society_type": "Dystopian, with a strong emphasis on technological advancement and corporate espionage"
+  },
+  "character_mappings": [
+    {
+      "original": "Romeo",
+      "new_world": "Elianore Quasar",
+      "role": "Brilliant but rebellious AI researcher",
+      "trait_preserved": "Impulsive"
+    },
+    {
+      "original": "Juliet",
+      "new_world": "Kaira Nexus",
+      "role": "Charismatic and determined AI ethicist",
+      "trait_preserved": "Determined"
+    },
+    {
+      "original": "Friar Lawrence",
+      "new_world": "Dr. Zhang Wei",
+      "role": "Respected AI mentor and philosopher",
+      "trait_preserved": "Wise"
+    },
+    {
+      "original": "Tybalt",
+      "new_world": "Viktor LaGraine",
+      "role": "Ruthless corporate spy and hacker",
+      "trait_preserved": "Aggressive"
+    }
+  ],
+  "plot_translations": {
+    "forbidden love": "Elianore and Kaira from rival tech corporations fall in love, threatening to disrupt the balance of power in Silicon Valley",
+    "separation": "Elianore and Kaira are forced apart by their corporations, who seek to exploit their talents for their own gain",
+    "desperation": "Elianore takes a drastic measure to be reunited with Kaira, hacking into a highly secure AI system to send her a message",
+    "tragic mistake": "A misunderstanding between Elianore and Kaira leads to a devastating AI malfunction, causing widespread destruction in Silicon Valley",
+    "ultimate sacrifice": "Elianore and Kaira give up their careers and reputations to expose the truth about the corrupt tech corporations and their exploitation of AI",
+    "reconciliation": "The conflict is resolved, but at a great cost: the tech corporations are forced to re-evaluate their priorities, and Elianore and Kaira must come to terms with the consequences of their actions"
+  },
+  "constraints": [
+    "All technology must be grounded in current or near-future advancements in AI and cybernetics",
+    "No supernatural or magical elements can be present",
+    "The story must take place entirely within the Silicon Valley area",
+    "The tech corporations must be depicted as having significant influence over the government and society",
+    "Elianore and Kaira's love story must be a central plot point, but not the only focus of the story",
+    "The themes of love vs loyalty, fate vs free will, duty vs personal desire, hatred vs forgiveness, and youth vs experience must be preserved and explored in the context of the tech world",
+    "The story must include a commentary on the ethics of AI development and the consequences of unchecked technological advancement"
+  ],
+  "forbidden_elements": [
+    "Magic or supernatural powers",
+    "Alien invasions or external threats",
+    "Government agencies as the primary antagonists",
+    "Romantic relationships between humans and AI entities",
+    "Utopian or overly optimistic portrayals of the tech industry"
+  ]
+}
