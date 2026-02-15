@@ -1,0 +1,14 @@
+# Core dependencies
+openai>=1.12.0
+groq>=0.4.1
+python-dotenv>=1.0.0
+
+# Data validation
+pydantic>=2.5.0
+
+# Utilities
+rich>=13.7.0
+
+# Jupyter (if running notebook)
+jupyter>=1.0.0
+ipykernel>=6.28.0

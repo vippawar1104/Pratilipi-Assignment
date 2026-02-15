@@ -1,0 +1,7 @@
+# Output files will be generated here
+
+This directory will contain:
+- story_dna.json (Stage 1 output)
+- transformation_rules.json (Stage 2 output)
+- final_story.md (2-3 page generated story)
+- constraint_log.json (Constraint enforcement logs)
